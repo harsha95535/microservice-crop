@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1  Crop VS Fertilizer Details
+  form(action='users/process1' method='POST')  
+    |Customer Name: 
+    input(type='text' name='name')    
+    br
+    |Crop Name: 
+    input(type='text' name='cname')    
+    br
+    input(type='submit' value='Give Fertilizer details')
+
+  
+
