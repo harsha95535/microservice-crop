@@ -21,7 +21,7 @@ router.post('/process1', urlencodedParser, function (req, res) {
    var cname = req.body.cname; 
    var result;
    if(cname=='Wheat' || cname=='Rice' || cname=='Barkley')
-    result = 'For this crop Potasic Fertilizer is best fertilizer currently in market. (If u want to buy this product proceed to this link localhost:3001)';
+    result = 'For this crop Potasic Fertilizer is best fertilizer currently in market:)';
 
   else  
     result = 'Please enter the crop name correctly';
